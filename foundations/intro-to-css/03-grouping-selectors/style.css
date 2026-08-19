@@ -1,1 +1,15 @@
-/* Add CSS Styling */
+/* shared, first, second */
+
+.shared {
+    font-size: 28px;
+    font-family: 'Helvetica', 'Times New Roman', sans-serif;
+}
+
+#first {
+    background-color: #000000;
+    color: white;
+}
+
+#second {
+    background-color: #ff0;
+}
