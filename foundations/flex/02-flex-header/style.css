@@ -14,12 +14,51 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
+
 
 a {
   font-size: 22px;
   background: white;
   padding: 8px;
+  color: blue;
   /* this removes the line under the links */
   text-decoration: none;
 }
+
+
+/* New Css Added */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+
+/* Logo */
+/* .logo {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+} */
+
+/* Left Links */
+/* .left-links,
+.right-links {
+  display: flex;
+  align-items: center;
+}
+
+.left-links {
+  margin-right: auto;
+}
+
+.right-links {
+  margin-left: auto;
+} */
